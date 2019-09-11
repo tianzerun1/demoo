@@ -17,4 +17,10 @@ public class CommitController {
         return "the frist commit of redleaf!";
     }
 
+    @ResponseBody
+    @RequestMapping("/test2")
+    public String test2(){
+        return "the frist commit of zhouyajing!";
+    }
+
 }
